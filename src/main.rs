@@ -1,3 +1,5 @@
+mod wallpaper;
+
 use rand::Rng;
 
 struct Stone {
