@@ -16,3 +16,5 @@ impl Image {
         }
     }
 }
+
+// TODO: Implement the access to pixels by (x, y) coordinates

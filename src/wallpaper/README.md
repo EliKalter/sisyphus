@@ -1,0 +1,7 @@
+- TODO PLAN:
+    - Write this file nicely
+    - Have logic for luminosity of image
+    - Have logic for colorfulness of image
+    - Have logic for weights on images and choosing randomally based on those
+    - Have logic to process a dir of pics into (Maybe into lists of colorful and low brightness images)
+    - Have logic to choose pictures over time without repeating (Too much)
