@@ -27,8 +27,11 @@ impl Image {
         Ok(self.pixels[(x * self.width + y) as usize])
     }
 
+    fn relative_brightness(&self) -> f32 {
+        let sum: f32 = self.pixels.iter().map(|s| s.relative_luminanace()).sum();
+        sum / (self.width * self.height) as f32
+    }
+
     // TODO: Have function that takes in a point of the same type as pix coordinates are, and checks
     // it is in the boounds of the image
 }
-
-// TODO: Implement the access to pixels by (x, y) coordinates
